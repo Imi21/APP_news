@@ -1,0 +1,26 @@
+@import "../../colors";
+.header{
+    position:sticky;
+    top:0;
+    height:100vh;
+    width:18vw;
+    min-width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: $black-color;
+    color:$primary-color;
+    padding: 10px;
+    div{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        span{
+            a{
+                all: unset;
+                cursor: pointer;
+            }
+        }
+    }
+}
