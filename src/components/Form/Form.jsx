@@ -61,6 +61,7 @@ const Form = () => {
   return (
     <form onSubmit={handleSubmit}>
       <div className="inputs">
+        <div>
       <input
         type="text"
         placeholder="titulo"
@@ -68,6 +69,8 @@ const Form = () => {
         value={data.username}
         name="titulo"
       />
+      </div>
+      <div>
       <input
         type="date"
         placeholder="fecha"
@@ -76,11 +79,14 @@ const Form = () => {
         value={data.email}
         name="fecha"
       />
+      </div>
+      <div>
        <textarea name="text" cols='30' rows='10'
         placeholder="pon aquí tu texto"
         onChange={handleInputChange}
         value={data.text}
       />
+      </div>
       <button type="submit" disabled={btnDisabled}>
         Enviar
       </button>

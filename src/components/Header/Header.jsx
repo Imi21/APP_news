@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <nav className="header">
+   
       <span>MATIAS NEWS</span>
       <div>
         <span>

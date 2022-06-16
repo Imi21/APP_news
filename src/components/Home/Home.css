@@ -1,0 +1,18 @@
+.home-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+div{
+    max-width: 100%;
+    
+
+}
+
+img{
+    width: 80%;
+}
+
+
