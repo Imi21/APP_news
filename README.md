@@ -1,7 +1,7 @@
 <!-- LOGO -->
 
 <p align="center">
-  <img width="400" height="240" src='./src/assets/nyt.jpg'>
+  <img width="400" height="240" src='https://www.yavendras.com/upload_imgs/2/f/matias-prats-3.jpg'>
 </p>
 
 <!-- INDICE -->
